@@ -69,7 +69,7 @@ The below command displays logs of both containers together.
 docker-compose logs -f --tail 20
 ```
 
-Check the logs for only the database container.=
+Check the logs for only the database container
 
 ```sh
 docker-compose logs -f --tail 20 postgres
@@ -93,19 +93,20 @@ To remove the docker containers with all the data. `Do not use this command. Thi
 docker-compose down -v
 ```
 
-### Open database on pgadmin4.
+### Open database at pgadmin4.
 
-Reference <!-- https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5 -->
+Reference `https://towardsdatascience.com/how-to-run-postgresql-and-pgadmin-using-docker-3a6a8ae918b5`
 
 http://127.0.0.1:5050/
-Username and password are taken from the .env.template file.
+Username and password are taken from the `.env.template` file.
 
 Then run the following command to get hostname using docker:
 
 ```sh
 docker ps --all
+
 # Get postgres database docker postgres id.
-docker inspect {docker_postgres_id} | grep IPAddress
+docker inspect {docker_postgres_container_id} | grep IPAddress
 ```
 
-step -> create_server - >  fill up information(hostname(get through above command take a ipaddress as a hostname), username, password this take on .env.template) - > save 
+step -> create_server - >  fill up information(hostname(get through above command take a IP Address as a hostname), username, password this take on .env.template) - > save 
