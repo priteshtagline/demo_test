@@ -1,5 +1,5 @@
-"""https://docs.djangoproject.com/en/3.2/topics/db/models/
-"""
+# https://docs.djangoproject.com/en/3.2/topics/db/models/
+
 from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
