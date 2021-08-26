@@ -1,24 +1,25 @@
-from database_design_evaluation.serializers import *
-from django.contrib.auth.models import Group, User
+from django.contrib.auth.models import Permission
 from rest_framework import permissions, viewsets
+from rest_framework.permissions import BasePermission, DjangoModelPermissions
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
-from ..admin_permission import AdminAuthenticationPermission
+from ..models import Product
+from ..serializer import UserSerializer
+
+
 
 
 class UserViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
     """
-    queryset = User.objects.all().order_by('-date_joined')
+    queryset = Product.objects.all()
     serializer_class = UserSerializer
-    permission_classes = (permissions.IsAuthenticated,
-                          AdminAuthenticationPermission,)
+    # permission_classes = [CustomPermission]
 
-
-class GroupViewSet(viewsets.ModelViewSet):
-    """
-    API endpoint that allows groups to be viewed or edited.
-    """
-    queryset = Group.objects.all()
-    serializer_class = GroupSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    def get(self, request, format=None):
+        content = {
+            'status': 'request was permitted'
+        }
+        return Response(content)
