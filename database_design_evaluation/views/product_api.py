@@ -5,8 +5,6 @@ from rest_framework.response import Response
 from ..models import Product
 from ..serializer import ProductSerializer
 
-SAFE_METHODS = ('GET', 'HEAD', 'OPTIONS')
-
 
 class DjangoModelPermissions(BasePermission):
     """
