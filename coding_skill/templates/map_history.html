@@ -1,5 +1,50 @@
-<ul>
-{% for map_history in map_historys %}
-    <li>{{map_history.distance}} {{map_history.created_date}} </li>
-{% endfor %}
-</ul>
+<html lang="en">
+<head>
+  <title>Map History</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <h2>Filtered map history records</h2>       
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">User</th>
+                <th scope="col">Source Latitude</th>
+                <th scope="col">Source Longitude</th>
+                <th scope="col">Destination Latitude</th>
+                <th scope="col">Destination Longitude</th>
+                <th scope="col">Starting Place</th>
+                <th scope="col">Ending Place</th>
+                <th scope="col">Distance</th>
+                <th scope="col">Created Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for map_history in map_historys %}
+            <tr>
+                <th scope="row">{{ forloop.counter }} </th>
+                <td>{{map_history.user.username}}</td>
+                <td>{{map_history.source_lat}}</td>
+                <td>{{map_history.source_long}}</td>
+                <td>{{map_history.destination_lat}}</td>
+                <td>{{map_history.destination_long}}</td>
+                <td>{{map_history.starting_place}}</td>
+                <td>{{map_history.ending_place}}</td>
+                <td>{{map_history.distance}}</td>
+                <td>{{map_history.created_date}}</td>
+            </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="10" class="text-center"><b>Not any record filter with given condition.</b></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

@@ -4,6 +4,17 @@ from django.utils.translation import gettext as _
 
 
 class MapHistory(models.Model):
+    """
+    MapHistory model store the all user map history 
+    by specific location coordinates, starting place, 
+    ending place and serach date and time.
+
+    Args:
+        models (method): [django model method]
+
+    Returns:
+        [string]: [user name]
+    """
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     source_lat = models.DecimalField(max_digits=9, decimal_places=6)
     source_long = models.DecimalField(max_digits=9, decimal_places=6)
@@ -20,4 +31,4 @@ class MapHistory(models.Model):
         verbose_name_plural = _("Map Historys")
 
     def __str__(self):
-        return self.user.first_name
+        return self.user.username
