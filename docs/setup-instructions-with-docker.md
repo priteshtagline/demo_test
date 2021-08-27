@@ -27,12 +27,6 @@ cp .env.template .env
 docker-compose up -d --build
 ```
 
-4. Create a super user with following command; So you can login into the admin site:
-
-```sh
-docker-compose exec web python manage.py createsuperuser
-```
-
 You can go to the http:///127.0.0.1 to view the application running.
 
 ## Docker Development
