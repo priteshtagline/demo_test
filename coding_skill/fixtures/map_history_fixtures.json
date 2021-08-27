@@ -1,0 +1,17 @@
+[
+    {
+      "model": "coding_skill.MapHistory",
+      "pk": 1,
+      "fields": {
+        "user": 2,
+        "source_lat": 152.652136,
+        "source_long": 154.652136,
+        "destination_lat": 158.652136,
+        "destination_long": 153.652136,
+        "starting_place":"surat",
+        "ending_place":"vadodra",
+        "distance":12.23
+
+      }
+    }
+  ]

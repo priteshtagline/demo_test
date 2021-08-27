@@ -43,9 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'database_design_evaluation',
     'coding_skill',
     'rest_framework',
-    'database_design_evaluation',
     'rest_framework_simplejwt',
 ]
 
