@@ -1,0 +1,139 @@
+[
+    {
+      "model": "map_history.MapHistory",
+      "pk": 1,
+      "fields": {
+        "user": 2,
+        "source_lat": 152.652136,
+        "source_long": 154.652136,
+        "destination_lat": 158.652136,
+        "destination_long": 153.652136,
+        "starting_place":"surat",
+        "ending_place":"vadodra",
+        "distance":120.23,
+        "created_date":"2021-08-27 15:39:29.821489"
+
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 2,
+      "fields": {
+        "user": 3,
+        "source_lat": 10.006210,
+        "source_long": 12.512210,
+        "destination_lat": 24.652136,
+        "destination_long": 14.652136,
+        "starting_place":"surat",
+        "ending_place":"amreli",
+        "distance":450.35,
+        "created_date":"2021-08-27 15:39:29.821489"
+
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 3,
+      "fields": {
+        "user": 2,
+        "source_lat": 66.652136,
+        "source_long": 20.120010,
+        "destination_lat": 25.22210,
+        "destination_long": 10.031601,
+        "starting_place":"kolkata",
+        "ending_place":"delhi",
+        "distance":1775.62,
+        "created_date":"2021-08-27 15:39:29.821489"
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 4,
+      "fields": {
+        "user": 2,
+        "source_lat": 152.652136,
+        "source_long": 154.652136,
+        "destination_lat": 158.652136,
+        "destination_long": 153.652136,
+        "starting_place":"delhi",
+        "ending_place":"panjab",
+        "distance":260.23,
+        "created_date":"2021-08-26 15:39:29.821489"
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 5,
+      "fields": {
+        "user": 3,
+        "source_lat": 152.652136,
+        "source_long": 154.652136,
+        "destination_lat": 158.652136,
+        "destination_long": 153.652136,
+        "starting_place":"surat",
+        "ending_place":"vadodra",
+        "distance":120.23,
+        "created_date":"2021-08-27 15:39:29.821489"
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 6,
+      "fields": {
+        "user": 2,
+        "source_lat": 152.652136,
+        "source_long": 153.652136,
+        "destination_lat": 152.652136,
+        "destination_long": 154.652136,
+        "starting_place":"vadodra",
+        "ending_place":"surat",
+        "distance":120.23,
+        "created_date":"2021-08-27 15:39:29.821489"
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 7,
+      "fields": {
+        "user": 2,
+        "source_lat": 152.652136,
+        "source_long": 154.652136,
+        "destination_lat": 158.652136,
+        "destination_long": 153.652136,
+        "starting_place":"amreli",
+        "ending_place":"vadodra",
+        "distance":300.01,
+        "created_date":"2021-08-27 15:39:29.821489"
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 8,
+      "fields": {
+        "user": 3,
+        "source_lat": 152.652136,
+        "source_long": 154.652136,
+        "destination_lat": 158.652136,
+        "destination_long": 153.652136,
+        "starting_place":"surat",
+        "ending_place":"vadodra",
+        "distance":120.23,
+        "created_date":"2021-08-26 15:39:29.821489"
+      }
+    },
+    {
+      "model": "map_history.MapHistory",
+      "pk": 9,
+      "fields": {
+        "user": 1,
+        "source_lat": 152.652136,
+        "source_long": 154.652136,
+        "destination_lat": 158.652136,
+        "destination_long": 153.652136,
+        "starting_place":"surat",
+        "ending_place":"vadodra",
+        "distance":120.23,
+        "created_date":"2021-08-27 15:39:29.821489"
+      }
+    }
+  ]
