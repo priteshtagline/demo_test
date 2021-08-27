@@ -27,4 +27,4 @@ class Product(models.Model):
 
     def __str__(self):
         # return human related name.
-        return self.product_name
+        return self.name
