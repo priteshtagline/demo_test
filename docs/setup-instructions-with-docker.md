@@ -1,4 +1,4 @@
-# demo_test
+# python-drf
 
 ## Setup Project using Docker
 
@@ -11,8 +11,8 @@ https://docs.docker.com/get-docker/
 1. Clone the project from git repository and move into the project directory.
 
 ```sh
-git clone https://github.com/priteshtagline/demo_test.git
-cd demo_test/
+git clone https://github.com/priteshtagline/python-drf.git
+cd python-drf/
 ```
 
 2. You can just copy the file `.env.template` as `.env` . And please ensure to add your credentials etc.

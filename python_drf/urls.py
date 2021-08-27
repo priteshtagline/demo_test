@@ -1,5 +1,5 @@
 # https://django-rest-framework-simplejwt.readthedocs.io/en/latest/getting_started.html
-"""demo_test URL Configuration
+"""python_drf URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.2/topics/http/urls/
