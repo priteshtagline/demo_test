@@ -17,10 +17,9 @@ Please refer this link.
 ## Demo
 1.  Please check below video link for understanding project features.
 
-    [Filtering Video](./docs/video/filtering.mov)
-    
-    [Permissions Video](./docs/video/permissions.mov)
+https://user-images.githubusercontent.com/77622078/131128826-805454de-3cf1-46a8-a570-992b2b463705.mp4
 
+https://user-images.githubusercontent.com/77622078/131129520-fa26a500-7aa4-47df-9239-235057ee3937.mp4
 
 ## Check credentials.
 1. Please check link for credentials.
