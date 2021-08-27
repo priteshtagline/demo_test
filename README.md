@@ -2,10 +2,12 @@
 
 This project is for the sample of our coding skills and experience in the Python, Django and Django Rest Framework. It has APIs developed in DRF based on different user roles and permissions.
 
-## If you check project features else click on below link.
-[System Features](./docs/system_features.md)
+## Features developed in the project
 
-## Set up project and development guide.
+Please refer this link.
+[Features](./docs/system_features.md)
+
+## Set up project and development guide
 
 1. Set up project without docker.
 [Setup Instruction Without Docker](./docs/setup-instructions-without-docker.md)
