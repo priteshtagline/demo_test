@@ -1,6 +1,6 @@
 from django.urls import path
 
-from coding_skill.views import MapHistoryView
+from map_history.views import MapHistoryView
 
 urlpatterns = [
     path('map-history/',

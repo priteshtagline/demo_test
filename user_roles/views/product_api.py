@@ -2,8 +2,8 @@ from rest_framework import exceptions, viewsets
 from rest_framework.permissions import BasePermission
 from rest_framework.response import Response
 
-from ..models import Product
-from ..serializer import ProductSerializer
+from user_roles.models import Product
+from user_roles.serializer import ProductSerializer
 
 
 class DjangoModelPermissions(BasePermission):

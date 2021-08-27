@@ -14,7 +14,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from database_design_evaluation import views
+from user_roles import views
 from django.contrib import admin
 from django.contrib.auth.models import User
 from django.urls import include, path
@@ -30,7 +30,7 @@ router.register(r'products', views.ProductViewSet)
 # Additionally, we include login URLs for the browsable API.
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('coding_skill.urls')),
+    path('', include('map_history.urls')),
     path('', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('api/login/', TokenObtainPairView.as_view(), name='token_obtain_pair'),

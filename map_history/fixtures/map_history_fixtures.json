@@ -1,6 +1,6 @@
 [
     {
-      "model": "coding_skill.MapHistory",
+      "model": "map_history.MapHistory",
       "pk": 1,
       "fields": {
         "user": 2,

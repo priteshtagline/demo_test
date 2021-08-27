@@ -4,7 +4,7 @@ from collections import namedtuple
 from django.db.models import Count, Q
 from django.views.generic import ListView
 
-from coding_skill.models import MapHistory
+from map_history.models import MapHistory
 
 
 class MapHistoryView(ListView):

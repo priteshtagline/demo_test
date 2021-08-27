@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from coding_skill.models import MapHistory
+from map_history.models import MapHistory
 
 
 @admin.register(MapHistory)

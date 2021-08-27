@@ -1,5 +1,5 @@
 
-from database_design_evaluation.admin_permission.admin import \
+from user_roles.admin_permission.admin import \
     AdminAuthenticationPermission
 from django.contrib.auth.models import Permission, User
 from django.core.exceptions import PermissionDenied

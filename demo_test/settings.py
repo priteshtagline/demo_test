@@ -43,8 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'database_design_evaluation',
-    'coding_skill',
+    'user_roles',
+    'map_history',
     'rest_framework',
     'rest_framework_simplejwt',
 ]
@@ -83,6 +83,7 @@ WSGI_APPLICATION = 'demo_test.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -93,6 +94,13 @@ DATABASES = {
         'PORT': 5432,
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#     }
+# }
+
 
 
 # Password validation

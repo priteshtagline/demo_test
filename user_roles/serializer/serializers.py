@@ -7,7 +7,7 @@ from ..models import Product
 class ProductSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Product
-        fields = ['product_name', 'product_code']
+        fields = ['name', 'code']
 
 
 class PermissionSerializer(serializers.ModelSerializer):

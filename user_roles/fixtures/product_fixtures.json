@@ -1,0 +1,32 @@
+[
+    {
+      "model": "user_roles.Product",
+      "pk": 1,
+      "fields": {
+        "name": "Shirt",
+        "code": "11",
+        "description": "It's amzinng item",
+        "price": "1000"
+      }
+    },
+    {
+      "model": "user_roles.Product",
+      "pk": 2,
+      "fields": {
+        "name": "Pent",
+        "code": "22",
+        "description": "It's amzinng item",
+        "price": "2000"
+      }
+    },
+    {
+      "model": "user_roles.Product",
+      "pk": 3,
+      "fields": {
+        "name": "Night Dress",
+        "code": "33",
+        "description": "It's amzinng item",
+        "price": "1500"
+      }
+    }
+  ]

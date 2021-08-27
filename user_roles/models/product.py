@@ -7,16 +7,16 @@ from django.utils.translation import ugettext_lazy as _
 class Product(models.Model):
     """Store product realted details.
     """
-    product_name = models.CharField(_("Product Name"), max_length=30)
-    product_code = models.CharField(
-        _("Product code"),
+    name = models.CharField(_("Name"), max_length=30)
+    code = models.CharField(
+        _("Code"),
         max_length=255,
     )
     description = models.TextField(
-        help_text=_("Detailed description."),
+        help_text=_("Description"),
     )
-    product_price = models.CharField(
-        _("Product Price"),
+    price = models.CharField(
+        _("Price"),
         max_length=255,
     )
 
