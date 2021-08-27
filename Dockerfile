@@ -21,3 +21,9 @@ RUN pip3 install --upgrade --force-reinstall setuptools
 
 # copy the content of the local src directory to the working directory
 COPY . /code/
+
+# add entrypoint
+COPY ./entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
+ENTRYPOINT [ "/entrypoint.sh" ]
+

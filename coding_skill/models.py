@@ -12,7 +12,7 @@ class MapHistory(models.Model):
     starting_place = models.CharField(max_length=255)
     ending_place = models.CharField(max_length=255)
     distance = models.DecimalField(max_digits=9, decimal_places=2)
-    created_date = models.DateTimeField(auto_now_add=True)
+    created_date = models.DateTimeField(auto_now_add=True,null=True,blank=True)
 
     class Meta:
         db_table = 'map_history'
